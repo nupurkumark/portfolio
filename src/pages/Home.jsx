@@ -4,7 +4,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faGraduationCap, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faKaggle } from "@fortawesome/free-brands-svg-icons";
-import me from "../assets/me.png"; 
+import "./Home.css";
+import me from "../assets/me-with-sign.jpg"; 
 
 const timeline = [ 
   {
@@ -80,8 +81,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-8 lg:mt-0 lg:ml-10"> {/* Picture */}
-          <img src={me} alt="me" className="h-100" />
+        <div> {/* Picture */}
+          {/* <img src={me} alt="me" className="h-100" /> */}
+          <div className="me mt-8 mr-15 lg:mt-8 lg:mr-15"></div>
         </div>
       </div>
 
