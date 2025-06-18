@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="text-5xl">
       <Link to="/" className="flex items-center space-x-2">
         <img src={logo} alt="Logo" className="h-25" />
-        <span className="text-[#004aad] hover:text-[#38b6ff] hover:underline transition duration-200">nupurkumark</span>
+        <span className="text-[#004aad] hover:text-[#38b6ff] hover:underline transition duration-200 mb-2">nupurkumark</span>
       </Link>
     </div>
 
