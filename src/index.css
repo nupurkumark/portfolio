@@ -2,9 +2,6 @@
 @import "tailwindcss";
 
 html,body {
-  /* margin-top: 5px; */
-  margin-left: 30px;
-  margin-right: 30px;
   color: #000000;
   font-family: 'Alata', sans-serif;
   background: #f4f6fc;

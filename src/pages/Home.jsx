@@ -42,13 +42,13 @@ const timeline = [
 
 export default function Home() {
   return (
-    <div className="p-15"> 
+  <div className="pl-35 pr-35 pt-10"> 
       <div className="flex flex-col lg:flex-row items-start justify-between"> {/* First Row: About Me and Picture */}
         <div className="w-full lg:w-1/2"> {/* About Me */}
           <h1 className="text-2xl font-bold">About Me</h1>
           <hr className="my-2 border-t-2 border-gray-300 w-20" />
-          <p className="text-lg">
-            Hi, I'm Nupur! I'm an incoming Master's student University of Minnesota - Twin Cities studying Data Science in Operations Research (DSOR). 
+          <p className="text-lg text-justify">
+            Hi, I'm Nupur! I'm an incoming Master's student University of Minnesota - Twin Cities studying Data Science in Operations Research. 
             I'm eager to expand my knowledge in tech, as there's always something new to learn. Ultimately, I aspire to work in a data science role
             either in big tech or the healthcare industry. I created this website as a personal diary to document my passions and track my growth over time.
             Check out my <a href="https://drive.google.com/file/d/1Rc1a-p-snURifHrtbSyqwfCIh7uWx-2m/view?usp=sharing" 
@@ -138,16 +138,15 @@ export default function Home() {
         </div>
 
         <div className="mt-10 lg:mt-14 lg:ml-10 w-full lg:w-1/2"> {/* Paragraph on the Right (aligned with top of timeline) */}
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             My path into data science has been driven by a strong interest in transforming raw data into actionable insights through compelling visualizations. 
             Storytelling is important to me as a data scientist because it helps turn complex data into clear insights for a non-technical audience.
-            Each role I've worked has deepened my understanding of the power of data. From teaching STEM to young students and teahing them how to code to 
-            interning at biomedical startup where I developed a prototype web app with meaningful visualizations for users to interpret quickly.
-            Currently I work at 3M as a tech aide where I collaborate with researchers to conduct experiements and analyze data on various product and technology 
-            development projects. It has been a great experience so far and I have learned and developed so many new skills.
+            From teaching STEM to young students and teahing them how to code to interning at biomedical startup where I developed a prototype web app with meaningful visualizations for users to interpret quickly, 
+            each role I've worked has deepened my understanding of the power of data.
           </p>
-          <p className="text-lg mt-3">
-            I'm especially interested in the intersection of healthcare and technology, and I plan to keep exploring how data science can 
+          <p className="text-lg mt-3 text-justify">
+            Currently I work at 3M as a tech aide where I collaborate with researchers to conduct experiements and analyze data on various product and technology 
+            development projects. It has been a great experience so far and I have learned and developed so many new skills. I plan to keep exploring how data science can 
             support better decisions in critical domains. Graduate school is the next step on that journey. 
           </p>
         </div>

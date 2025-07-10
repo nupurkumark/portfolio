@@ -42,7 +42,7 @@ const projects = [
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
-    <div className="p-10">
+    <div className="ml-35 mr-35 mt-10">
       <h1 className="text-2xl font-bold">My Projects</h1>
       <hr className="my-2 border-t-2 border-gray-300 w-20 mb-5" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
