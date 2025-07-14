@@ -18,6 +18,7 @@ const locations = [
   { name: 'Ajmer, India', lat: 26.4499, lng: 74.6399 },
   // { name: 'Australia', lat: -25.2744, lng: 133.7751 },
   { name: 'St. Martin', lat: 18.0708, lng: -63.0501 },
+  { name: 'Florida', lat: 27.9944, lng: -81.7603 },
   // { name: 'Bahamas', lat: 25.0343, lng: -77.3963 },
   // { name: 'Puerto Rico', lat: 18.2208, lng: -66.5901 },
 ];
