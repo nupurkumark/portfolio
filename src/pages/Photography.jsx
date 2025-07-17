@@ -47,9 +47,12 @@ export default function Photography() {
       <h1 className="text-2xl font-bold">My Photograpghy</h1>
       <hr className="my-2 border-t-2 border-gray-300 w-20 mb-5" />
       <p className="mb-5">
-        Although I am in no way a professional photographer with any sort of fancy equipment, I really taking photos of scenic views. Currently, I just use my iPhone
-        camera to take pics, but I plan on purchasing a simple underwater camera becasue I will be going to Australia and New Zealand later this year! I will be going to
-        The Great Barrier Reef, so I hope to see some cool sea creatures. Take a look on this map to see all the places I've been and find all the corresponding pictures.
+        I'm not a professional photographer and I don't use any fancy equipment. I just use my iPhone, but I really enjoy capturing scenic views. I'm planning to get a 
+        simple underwater camera soon, since I'll be traveling to Australia and New Zealand later this year. I’m especially excited to visit the Great Barrier Reef and 
+        hope to photograph some amazing sea life!
+      </p>
+      <p className="mb-5">
+        This map shows all the places I've visited and captured some great photos. Below are all the photos, click on a marker to see pictures from that specific location.
       </p>
       <TravelMap setFilter={setFilter} />
       {filter && (
@@ -66,13 +69,14 @@ export default function Photography() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+      <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4 mt-8">
         {filteredPhotos.map((photo, index) => (
           <img
             key={index}
             src={photo.src}
             alt={photo.alt}
-            className="rounded-lg shadow-md object-cover w-full h-72"
+            loading="lazy"
+            className="w-full rounded-lg shadow-md break-inside-avoid"
           />
         ))}
       </div>
