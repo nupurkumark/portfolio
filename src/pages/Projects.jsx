@@ -48,7 +48,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div key={project.id} className="rounded-xl shadow-md overflow-hidden cursor-pointer hover:shadow-lg transition">
-            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" loading="lazy" />
             <div className="p-4">
               <div className="flex items-center justify-between">
                 <h2 className="text-lg font-semibold hover:underline hover:text-gray-600 transition duration-200 cursor-pointer" onClick={() => setSelectedProject(project)}>
